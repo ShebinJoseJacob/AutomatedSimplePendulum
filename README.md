@@ -9,11 +9,8 @@ The simple gravity pendulum is an idealized mathematical model of a pendulum. Th
 The period of swing of a simple gravity pendulum depends on its length, the local strength of gravity, and to a small extent on the maximum angle that the pendulum swings away from
 
 vertical, θ<sub>0</sub>, called the amplitude. It is independent of the mass of the bob. If the amplitude is limited to small swings, the period T of a simple pendulum, the time taken for a complete cycle, is
-<p align="center">
-  <img width="452" height="422" src="https://hackster.imgix.net/uploads/attachments/860524/schematics_zgzlLC7FWm.jpg?auto=compress%2Cformat"><br>
- </p>
 
-θ0 << 1 radian
+![](https://github.com/ShebinJoseJacob/AutomatedSimplePendulum/blob/master/Equations/eq1.jpg)                                           &emsp;&emsp;&emsp;&emsp;if θ<sub>0</sub> << 1 radian
 
 Where L is the length of the pendulum and g is the local acceleration of gravity.
 
