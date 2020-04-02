@@ -16,15 +16,15 @@ Where L is the length of the pendulum and g is the local acceleration of gravity
 
 For small swings the period of swing is approximately the same for different size swings: that is, the period is independent of amplitude. This property, called isochronism, is the reason pendulums are so useful for timekeeping. Successive swings of the pendulum, even if changing in amplitude, take the same amount of time.
 
-For larger amplitudes, the period increases gradually with amplitude so it is longer than given by equation (1). For example, at an amplitude of θ0 = 23° it is 1% larger than given by (1). The period increases asymptotically (to infinity) as θ approaches 180°, because the value θ0 = 180° is an unstable equilibrium point for the pendulum. The true period of an ideal simple gravity pendulum can be written in several different forms, one example being the infinite series:
+For larger amplitudes, the period increases gradually with amplitude so it is longer than given by equation (1). For example, at an amplitude of θ<sub>0</sub> = 23° it is 1% larger than given by (1). The period increases asymptotically (to infinity) as θ approaches 180°, because the value θ<sub>0</sub> = 180° is an unstable equilibrium point for the pendulum. The true period of an ideal simple gravity pendulum can be written in several different forms, one example being the infinite series:
 
-𝑇=2π√𝐿/𝑔 [1+1/16 θ0^2 + 113072 θ0^4 +…)
 
-Where θ0 is in radians.
+![](https://github.com/ShebinJoseJacob/AutomatedSimplePendulum/blob/master/Equations/eq2.jpg)                                           &emsp;&emsp;&emsp;&emsp;Where θ<sub>0</sub> is in radians.
 
-From equation (1) the local value of acceleration due to gravity can be calculated as
 
-g = (4π²𝐿)/T²
+The local value of acceleration due to gravity can be calculated as
+
+![](https://github.com/ShebinJoseJacob/AutomatedSimplePendulum/blob/master/Equations/eq3.jpg)                                           
 
 Damping is an influence within or upon an oscillatory system that has the effect of reducing, restricting or preventing its oscillations. In most physical systems, damping is produced by processes that dissipate the energy stored in the oscillation. Due to damping the amplitude of oscillation goes on decreasing and finally reaches mean.
 <p align="center">
