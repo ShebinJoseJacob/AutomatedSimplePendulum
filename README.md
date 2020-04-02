@@ -28,9 +28,9 @@ g = (4π²𝐿)/T²
 
 Damping is an influence within or upon an oscillatory system that has the effect of reducing, restricting or preventing its oscillations. In most physical systems, damping is produced by processes that dissipate the energy stored in the oscillation. Due to damping the amplitude of oscillation goes on decreasing and finally reaches mean.
 <p align="center">
-  <img width="480" height="480" src="https://hackster.imgix.net/uploads/attachments/860524/schematics_zgzlLC7FWm.jpg?auto=compress%2Cformat"><br>
+  <img width="452" height="422" src="https://hackster.imgix.net/uploads/attachments/860524/schematics_zgzlLC7FWm.jpg?auto=compress%2Cformat"><br>
   <em>Simple Pendulum</em><br>
- <img width="555" height="480" src="https://hackster.imgix.net/uploads/attachments/860530/2000px-damped_sinewave_svg__vr7a2WEGie.png?auto=compress%2Cformat"><br>
+ <img width="456" height="323" src="https://hackster.imgix.net/uploads/attachments/860530/2000px-damped_sinewave_svg__vr7a2WEGie.png?auto=compress%2Cformat"><br>
   <em>Damping Curve</em>
 </p>
 
@@ -41,7 +41,7 @@ The principle of an IR sensor working as an Object Detection Sensor can be expla
 When the IR transmitter emits radiation, it reaches the object and some of the radiation reflects back to the IR receiver. Based on the intensity of the reception by the IR receiver, the output of the sensor is defined.
 
 <p align="center">
-  <img width="480" height="480" src="https://hackster.imgix.net/uploads/attachments/860540/ir_QFvQEp2Z2o.jpg?auto=compress%2Cformat"><br>
+  <img width="456" height="317" src="https://hackster.imgix.net/uploads/attachments/860540/ir_QFvQEp2Z2o.jpg?auto=compress%2Cformat"><br>
 </p>
 
 ### 3. ARDUINO UNO
@@ -52,13 +52,22 @@ Arduino Uno uses C/C++ compiler to compile the uploaded code and performs its fu
 
 
 <p align="center">
-  <img width="480" height="480" src="https://hackster.imgix.net/uploads/attachments/860538/arduino_MNK759Baeq.jpg?auto=compress%2Cformat"><br>
+  <img width="480" height="393" src="https://hackster.imgix.net/uploads/attachments/860538/arduino_MNK759Baeq.jpg?auto=compress%2Cformat"><br>
 </p>
 
 ## EXPERIMENTAL SETUP
 The whole experiment setup consists of a simple pendulum, a virtual clock using IR proximity sensor and microcontroller. The schematic diagram of experimental setup is shown.
+<p align="center">
+  <img width="456" height="225" src="https://hackster.imgix.net/uploads/attachments/860549/setup_xYOY9VQiEd.jpg?auto=compress%2Cformat"><br>
+</p>
 
 The proximity sensor can be connected to Arduino Uno as
+<p align="center">
+  <img width="415" height="169" src="https://hackster.imgix.net/uploads/attachments/860551/wiring_fH0IxrEte4.jpg?auto=compress%2Cformat"><br>
+</p>
+
+
+
 
 ## PROCEDURE
 ## 1. CONSTRUCT A FRAME
@@ -83,12 +92,24 @@ Arduino Uno is the brain of this project, it reads the value from the IR proximi
 
 Arduino uses C/C++ code with its own slight modifications. Code has two parts, the major part is to analyze sensor and all determines whether the bob is in the mean position or not. digitalRead() function is used to read the sensor data. If the value is 0 the bob is in the mean position and if 1 it is not. The micros()function is used to measure the time period.
 
+<p align="center">
+  <img width="405" height="377" src="https://hackster.imgix.net/uploads/attachments/860559/coding_vGZe9uUti7.jpg?auto=compress%2Cformat"><br>
+</p>
+
 Using the Serial.println()function the value of ‘g’ is printed and a real time damping curve is drawn in the serial plotter.
 
 ## OBSERVATION
 For small amplitude oscillations the local value of acceleration due to gravity is printed in the serial monitor.
 
+<p align="center">
+  <img width="456" height="377" src="https://hackster.imgix.net/uploads/attachments/860560/g_value_aVvPA1doKH.jpg?auto=compress%2Cformat"><br>
+</p>
+
 Also a real time damping curve is observed in the serial plotter
+
+<p align="center">
+  <img width="456" height="222" src="https://hackster.imgix.net/uploads/attachments/860561/damping_w9vZoKdQAI.jpg?auto=compress%2Cformat"><br>
+</p>
 
 Calculating on paper is never an easy job. When it comes to complex formulas it is nothing but a short nightmare. So it is better to replace the scary calculations with a small computer program. The better part is that the observations and values are more accurate when using sensors. In this project we have automated the tedious calculations with a small computer program. In this technical era it seems to be worth.
 
