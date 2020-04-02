@@ -1,4 +1,9 @@
-//Developed by Shebin Jose Jacob
+/*============================
+Developer       : Shebin Jose Jacob
+Initial Release : 17 April 2019
+License         : MIT
+=============================*/
+
 unsigned long pretime;
 unsigned long currtime;
 int pin = 2;
